@@ -5,3 +5,45 @@ body {
   background-image: url('./sw-bg.jpg');
   background-size: cover;
 }
+.space {
+  margin-top: 10px;
+  margin: 0, 10px;
+  
+}
+
+.home-button {
+  padding: 3px 10px;
+  background-color: lightskyblue;
+  text-decoration: none;
+  margin-bottom:10px;
+  width: 100%;
+  padding:20px;
+  /* display: flex; */
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+
+  
+}
+.info{
+ margin:10px;
+ margin-top: 5px;
+}
+
+.navbar{
+  font-size: 20px;
+  color: #443e3e;
+  text-shadow: 1px 1px 5px #fff;
+  font-family:sans-serif;
+}
+span{
+  font-weight: bold;
+}
+.navbar:hover{
+
+  font-weight: bold;
+  color: blue;
+
+}
+
+
